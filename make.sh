@@ -7,10 +7,10 @@
 ########## Variables
 
 # dotfiles directory
-dir=~/Prog/Dotfiles
+dir=/home/tora/Prog/Dotfiles
 
 # old dotfiles backup directory
-olddir=~/Prog/Dotfiles_Old
+olddir=.home/tora/Prog/Dotfiles_Old
 
 # list of files/folders to symlink in homedir
 files="bashrc bash_aliases tmux.conf"
