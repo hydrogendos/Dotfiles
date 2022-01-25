@@ -13,7 +13,7 @@ dir=~/Prog/Dotfiles
 olddir=~/Prog/Dotfiles_Old
 
 # list of files/folders to symlink in homedir
-files="bashrc tmux.conf"
+files="bashrc bash_aliases tmux.conf"
 
 ##########
 
