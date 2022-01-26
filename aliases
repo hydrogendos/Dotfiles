@@ -1,6 +1,11 @@
+# Safety Aliases
+alias dc=cd
+
 # Folder Shortcuts
 alias cdstor="cd /media/tora/Storage"
 alias cdprog="cd ~/Prog"
+alias -="cd -"
+alias ~="cd ~"
 
 # Dotfiles updates
 alias dotfiles='git --git-dir=/media/tora/Storage/Prog/Dotfiles/.git/ --work-tree=/media/tora/Storage/Prog/Dotfiles'
