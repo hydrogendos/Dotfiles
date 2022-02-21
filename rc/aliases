@@ -1,0 +1,37 @@
+# Use colors in coreutils utilities output
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+
+# ls aliases
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls'
+alias l.='ls -la .'
+
+# Safety Aliases
+alias cp='cp -i'
+alias mv='mv -i'
+alias dc=cd
+alias sl=ls
+
+# Folder Shortcuts
+alias cdstor='cd /media/tora/Storage'
+alias cdprog='cd ~/Prog'
+$STOR='/media/tora/Storage/'
+$PROG='~/Prog'
+
+# Dotfiles updates
+alias dotfiles='/usr/bin/git --git-dir=/media/tora/Storage/Prog/Dotfiles/.git/ --work-tree=/media/tora/Storage/Prog/Dotfiles'
+alias dotupdate='/usr/bin/git --git-dir=/home/tora/Prog/Dotfiles/.git/ --work-tree=/home/tora/Prog/Dotfiles pull; sh /home/tora/Prog/Dotfiles/install' 
+
+# Easy Grepping
+if [[ "$SHELL" == "zsh" ]]; then
+{
+    allhist="history 1"
+}
+else
+{
+    allhist="history"
+}
+
+alias hgrep='$allhist | grep -E'
