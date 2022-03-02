@@ -8,3 +8,6 @@
 [submodule "vim/pack/CtrlP/start"]
 	path = vim/pack/CtrlP/start
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "zsh/powerlevel10k"]
+	path = zsh/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git
