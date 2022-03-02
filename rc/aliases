@@ -17,21 +17,13 @@ alias sl=ls
 # Folder Shortcuts
 alias cdstor='cd /media/tora/Storage'
 alias cdprog='cd ~/Prog'
-$STOR='/media/tora/Storage/'
-$PROG='~/Prog'
+STOR='/media/tora/Storage'
+PROG='~/Prog'
 
 # Dotfiles updates
 alias dotfiles='/usr/bin/git --git-dir=/media/tora/Storage/Prog/Dotfiles/.git/ --work-tree=/media/tora/Storage/Prog/Dotfiles'
 alias dotupdate='/usr/bin/git --git-dir=/home/tora/Prog/Dotfiles/.git/ --work-tree=/home/tora/Prog/Dotfiles pull; sh /home/tora/Prog/Dotfiles/install' 
 
 # Easy Grepping
-if [[ "$SHELL" == "zsh" ]]; then
-{
-    allhist="history 1"
-}
-else
-{
-    allhist="history"
-}
-
-alias hgrep='$allhist | grep -E'
+alias history='history 1'
+alias hgrep='history | grep -E'
