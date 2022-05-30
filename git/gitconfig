@@ -1,5 +1,8 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = tora 
 	email = hydrogendos@protonmail.com 
+
+[alias]
+	logg = log --all --graph
+	update-submodules = submodule update --init --recursive
+	upgrade-submodules = submodule update --init --remote
