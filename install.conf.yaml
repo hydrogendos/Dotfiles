@@ -9,6 +9,7 @@
 - link: 
     ~/.gitconfig: git/gitconfig
     ~/.tmux.conf: tmux/tmux.conf
+    ~/.tmux/plugins: tmux/plugins
     ~/.vim: vim
     ~/.vimrc: vim/vimrc
     ~/.aliases: rc/aliases
