@@ -107,7 +107,7 @@ fi
 
 # Environment Setup
 # Additional user created environment settings
-if [-f ~/.env ]; then
+if [ -f ~/.env ]; then
     . ~/.env
 fi
 
