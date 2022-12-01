@@ -1,4 +1,6 @@
 set tabstop=2
-set shiftwidth=2
-set noexpandtab
-set noautoindent
+set softtabstop=2
+set shiftwidth=0
+set expandtab
+set autoindent
+set paste
