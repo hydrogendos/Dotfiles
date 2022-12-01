@@ -12,6 +12,8 @@
     ~/.tmux/plugins: tmux/plugins
     ~/.vim: vim
     ~/.vimrc: vim/vimrc
+    ~/.local/share/nvim/site/pack: vim/pack
+    ~/.config/nvim/init.vim: vim/vimrc
     ~/.aliases: rc/aliases
     ~/.env: rc/env
     ~/.bash: bash
