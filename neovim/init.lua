@@ -1,3 +1,3 @@
 require("tora.options")
 require("tora.keymaps")
-require("plugins")
+require("tora.plugins")

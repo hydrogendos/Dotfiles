@@ -1,0 +1,5 @@
+neovim/plugin/*
+neovim/pack/*
+!neovim/pack/.gitkeep
+vim/undodir/*
+

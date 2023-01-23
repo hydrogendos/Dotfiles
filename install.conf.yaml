@@ -12,8 +12,8 @@
     ~/.tmux/plugins: tmux/plugins
     ~/.vim: vim
     ~/.vimrc: vim/vimrc
-    ~/.local/share/nvim/site/pack: vim/pack
     ~/.config/nvim: neovim
+    ~/.local/share/nvim/site/pack: neovim/pack
     ~/.aliases: rc/aliases
     ~/.env: rc/env
     ~/.bash: bash
@@ -21,6 +21,7 @@
     ~/.bash_profiles: bash/bash_profiles
     ~/.zsh: zsh
     ~/.zshrc: zsh/zshrc
+    ~/.config/alacritty: alacritty
 
 - shell:
     - git submodule sync --recursive
