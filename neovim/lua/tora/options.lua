@@ -9,6 +9,7 @@ local options = {
     -- do not edit files that another editor is using
     writebackup = false,
     -- enable persistent undo
+    undodir = os.getenv("HOME") .. "/.vim/undodir",
     undofile = true,
 
     -- allows neovim to access the system clipboard
@@ -19,11 +20,11 @@ local options = {
 
     -- highlight all matches on previous search pattern
     hlsearch = true,
+    -- enable searching while you type
+    incsearch = true,
     -- case-insensitivity for searching text
     ignorecase = true,
     smartcase = true,
-    -- Enable searching while you type
-    incsearch = true,
     
     -- highlight the current line
     cursorline = true,
@@ -67,8 +68,8 @@ local options = {
     splitright = true,
 
     -- set term gui colors (most terminals support this)
-    -- termguicolors = true,
-    --
+    termguicolors = true,
+
     -- time to wait for a mapped sequence to complete (in milliseconds)
     timeoutlen = 1000,
 
