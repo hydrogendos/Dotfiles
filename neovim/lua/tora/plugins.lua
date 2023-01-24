@@ -40,7 +40,12 @@ packer.init {
 
 return require("packer").startup(function(use)
     use ("wbthomason/packer.nvim")
-    use ("Olical/conjure")
+    -- Coloring text
+    use({
+        "lunarvim/colorschemes",
+        as = "colorschemes",
+    })
+    use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
     if PACKER_BOOTSTRAP then
         require("packer").sync()
