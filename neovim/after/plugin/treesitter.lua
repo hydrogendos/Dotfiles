@@ -4,6 +4,7 @@ configs.setup {
     -- put the language you want in this array
     ensure_installed = { 
         "lua",
+        "yaml",
         "markdown",
         "markdown_inline",
         "bash",
